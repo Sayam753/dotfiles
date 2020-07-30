@@ -1,0 +1,55 @@
+{
+    "terminal.integrated.fontFamily": "Inconsolata-g for Powerline",
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "git.confirmSync": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "workbench.sideBar.location": "left",
+    "workbench.iconTheme": "vscode-icons",
+    "python.autoComplete.extraPaths": [],
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    // Python options
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.venvPath": "/Users/user/Env",
+    // Terminal options
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    // Autopep8 options
+    "python.languageServer": "Microsoft",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+    // Pylint options
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
+    "python.linting.pylintArgs": [
+        "--enable=F, E, C, R, W",
+    ],
+    // Pydocstyle options
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstylePath": "/usr/local/bin/pydocstyle",
+    "python.linting.pydocstyleArgs": [
+        "--convention=numpy"
+    ],
+    // Mypy options
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "/usr/local/bin/mypy",
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports"
+    ],
+}

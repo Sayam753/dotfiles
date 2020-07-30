@@ -1,0 +1,6 @@
+.history
+.vscode
+.mypy_cache
+.DS_Store
+*.ipnb
+

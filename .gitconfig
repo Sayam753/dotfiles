@@ -1,0 +1,10 @@
+[user]
+	name = Sayam753
+	email = sayamkumar753@yahoo.in
+	signingkey = 69184FFA974E07E4
+[core]
+	excludesfile = /Users/user/.gitignore_global
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
