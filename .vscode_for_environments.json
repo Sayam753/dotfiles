@@ -1,8 +1,13 @@
 {
-    "python.pythonPath": "/Users/user/Env/flask_docker_jibri/bin/python",
+    "python.pythonPath": "/Users/user/Env/only_osint/bin/python",
     "python.linting.pylintArgs": [
         "--init-hook",
-        "import sys; sys.path.append('/Users/user/Env/flask_docker_jibri/lib/python3.8/site-packages'); import pylint_venv; pylint_venv.inithook(force_venv_activation=True)"
+        "import sys; sys.path.append('/Users/user/Env/only_osint/lib/python3.8/site-packages'); import pylint_venv; pylint_venv.inithook(force_venv_activation=True)",
+        "--enable=F, E, C, R, W",
+        "--disable=missing-module-docstring, no-absolute-import",
+    ],
+    "python.linting.pydocstyleArgs": [
+        "--convention=numpy",
+        "--disable=D100"
     ]
 }
-
