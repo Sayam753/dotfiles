@@ -1,32 +1,20 @@
 {
-    "terminal.integrated.fontFamily": "Inconsolata-g for Powerline",
-    "window.zoomLevel": 0,
-    "editor.suggestSelection": "first",
-    "git.confirmSync": false,
-    "C_Cpp.updateChannel": "Insiders",
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "editor.minimap.enabled": false,
+    // Editor options
     "editor.wordWrap": "off",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.suggestSelection": "first",
+    // Workbench options
+    "workbench.settings.editor": "json",
     "workbench.sideBar.location": "left",
     "workbench.iconTheme": "vscode-icons",
-    "python.autoComplete.extraPaths": [],
-    "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
-    "workbench.settings.useSplitJSON": false,
-    "vsicons.dontShowNewVersionMessage": true,
+    // Terminal options
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Inconsolata-g for Powerline",
     // Python options
     "python.pythonPath": "/usr/local/bin/python3",
     "python.venvPath": "/Users/user/Env",
-    // Terminal options
-    "terminal.integrated.shell.osx": "/bin/zsh",
     // Autopep8 options
     "python.languageServer": "Microsoft",
     "editor.formatOnSave": true,
@@ -52,4 +40,17 @@
     "python.linting.mypyArgs": [
         "--ignore-missing-imports"
     ],
+    // Misc
+    "git.confirmSync": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/.history": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/__pycache__": true
+    },
 }

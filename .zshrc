@@ -5,14 +5,12 @@ precmd() { vcs_info }
 
 zstyle ':vcs_info:git:*' formats '%F{011}( %b)%f'
 
-setopt menucomplete
 setopt PROMPT_SUBST
 PROMPT='%F{166}Sayam%f:%F{040}%1~%f ${vcs_info_msg_0_}%{$reset_color%}$ '
 
 # Personal configurations
 source /usr/local/bin/virtualenvwrapper.sh
 export WORKON_HOME=~/Env
-export PATH=/Users/user/Library/Python/3.7/bin:$PATH
 alias p=python3
 alias jn="jupyter notebook"
 
